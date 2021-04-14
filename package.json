@@ -1,0 +1,32 @@
+{
+  "name": "niftypage",
+  "version": "0.1.0",
+  "private": true,
+  "author": "warrior",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettify": "prettier --write src/"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.4.0",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "framer-motion": "^4.0.0",
+    "lodash": "^4.17.21",
+    "next": "^10.1.2",
+    "next-pwa": "^5.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-js-pagination": "^3.0.3"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^3.0.3",
+    "@types/node": "^14.14.35",
+    "@types/react": "^17.0.3",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.3"
+  }
+}
